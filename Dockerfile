@@ -11,6 +11,6 @@ RUN apt-get update \
             --no-install-recommends
         && rm -rf /var/lib/apt/lists/*
 
-ENV RAILS_VERSION 4.1.8
+ENV RAILS_VERSION 4.2.0
 
 RUN gem install rails --version "$RAILS_VERSION"
